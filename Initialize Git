@@ -1,0 +1,4 @@
+cd InfoHub-Challenge
+git init
+git add .
+git commit -m "Initial commit: InfoHub full-stack application"
