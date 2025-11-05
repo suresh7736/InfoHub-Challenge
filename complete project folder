@@ -1,0 +1,24 @@
+InfoHub-Challenge/
+│
+├── server/                          # Backend folder
+│   ├── server.js                    # Main server file (Artifact 2)
+│   ├── package.json                 # Backend dependencies (Artifact 3)
+│   ├── .env.example                 # Example env file (NOT .env)
+│   └── .gitignore                   # Ignore node_modules, .env
+│
+├── client/                          # Frontend folder
+│   ├── src/
+│   │   ├── App.jsx                  # Main React component (Artifact 1)
+│   │   ├── main.jsx                 # React entry point
+│   │   └── index.css                # Tailwind imports
+│   ├── public/
+│   ├── index.html
+│   ├── package.json                 # Frontend dependencies
+│   ├── vite.config.js               # Vite config (Artifact 6)
+│   ├── tailwind.config.js           # Tailwind config
+│   ├── postcss.config.js            # PostCSS config
+│   └── .gitignore                   # Ignore node_modules, dist
+│
+├── vercel.json                      # Deployment config (Artifact 4)
+├── README.md                        # Documentation (Artifact 5)
+└── .gitignore                       # Root gitignore
